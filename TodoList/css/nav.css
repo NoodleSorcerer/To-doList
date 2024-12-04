@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #F78E69;
+    align-items: center;
+}
+nav h1 {
+    vertical-align: center;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5D675B;
+    color: white;
+
+}

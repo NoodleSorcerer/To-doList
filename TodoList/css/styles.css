@@ -1,0 +1,39 @@
+html {
+    color: #ffffff;
+    font-family: verdana, arial, helvetica, sans-serif;
+    margin: 0;
+}
+body {
+    background-color: #5D675B;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    margin: 0;
+}
+
+.main h2 {
+    background-color: #F78E69;
+}
+.main p {
+    background-color: #F78E69;
+}
+#todo_list {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin: 0;
+}
+
+.task-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    background-color: #A0A99E;
+    border: 1px solid #F78E69;
+}
+.task-container p {
+    background-color: #A0A99E;
+}
